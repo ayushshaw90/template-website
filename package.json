@@ -1,0 +1,21 @@
+{
+  "name": "template-website",
+  "version": "1.0.0",
+  "description": "Tailwind css",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^10.4.5",
+    "postcss": "^8.4.13",
+    "tailwindcss": "^3.0.24"
+  },
+  "dependencies": {
+    "postcss-cli": "^9.1.0",
+    "vite": "^2.9.6"
+  }
+}
