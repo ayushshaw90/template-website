@@ -13,18 +13,18 @@
     <nav class="flex w-full bg-slate-300 text-slate-700 justify-between">
         <div class=" px-2 inline-flex ">
             <ul class="inline-flex ">
-                <li><img src="img/elementaryOS_logo.webp" alt="" class="w-8 h-14 py-3"></li>
-                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto ">Home</li>
-                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto">Community</li>
-                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto">Download</li>
-                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto">Store</li>
-                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto">Blog</li>
+                <li><img src="img/elementaryOS_logo.webp" alt="" class="h-12 py-2 my-auto"></li>
+                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto  hidden pc:block">Home</li>
+                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto hidden pc:block">Community</li>
+                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto hidden pc:block">Download</li>
+                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto hidden pc:block">Store</li>
+                <li class="ml-2 hover:bg-slate-400 ease-in-out duration-300 px-2 py-4 my-auto hidden pc:block">Blog</li>
                 <button
                     class="ml-8 ease-in-out duration-300 border-2 border-sky-500 my-2 px-2 rounded-lg text-sky-500 hover:bg-sky-500 hover:text-white">Donate
                     us</button>
             </ul>
         </div>
-        <div class="inline-flex pr-6">
+        <div class="pr-6 hidden pc:inline-flex">
             <ul class="inline-flex">
                 <li class="my-auto"><img src="img/discord.png" alt=""
                         class="w-6 mx-2 my-auto hover:w-8 ease-in-out duration-300"></li>
@@ -39,6 +39,8 @@
                 <li class="my-auto"><img src="" alt=""></li>
             </ul>
         </div>
+        
+        <img src="img/menu.png" alt="" class="h-8 my-auto pc:hidden px-2">
     </nav>
     <div id="home" class="bg-gray-100 text-center pb-32">
         <h1 class="text-4xl py-4">Sample OS</h1>
