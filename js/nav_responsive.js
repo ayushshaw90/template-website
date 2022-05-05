@@ -1,3 +1,4 @@
+let home = document.getElementById("home")
 let socials = document.getElementById("socials")
 let community = document.getElementById("community")
 let download = document.getElementById("download")
@@ -9,6 +10,7 @@ let visible =false;
 
 menu.addEventListener('click', ()=>{
     if(!visible){
+        home.classList.remove("hidden")
         community.classList.remove("hidden")
         download.classList.remove("hidden")
         blog.classList.remove("hidden")
@@ -16,6 +18,7 @@ menu.addEventListener('click', ()=>{
         donate.classList.remove("hidden")
         visible=true;
     }else{
+        home.classList.add("hidden")
         community.classList.add("hidden")
         download.classList.add("hidden")
         blog.classList.add("hidden")
