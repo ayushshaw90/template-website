@@ -16,3 +16,6 @@ npx tailwindcss -i ./input.css -o ./dist/input.css --watch
 
 <h2>After the input.css file gets generated inside dist folder, we need to replace the input.css of current directory with the new input.css file generated.
   </h2>
+
+<h1>Preview</h1>
+https://ayushshaw90.github.io/template-build/
